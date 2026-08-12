@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #fcfbf2;
+    color:#000000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Noto Sans', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h3.recipe-page {
+    text-align: left;
+}
+
+h1 {
+    text-align: center;
+    font-size: 72px;
+    font-weight: 800;
+    padding: 30px;
+    letter-spacing: 8px;
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+    font-size: 56px;
+    letter-spacing: 5px;
+}
+
+h3 {
+    text-align: left;
+    font-size: 32px;
+    letter-spacing: 2px;
+    padding: 20px 0;
+}
+
+h4 {
+    text-align: left;
+    font-size: 24px;
+}
+h5 {
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+h6 {
+    text-align: left;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+p {
+    white-space: normal;
+}
+
+body {
+    font-family: 'Arial', san-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+    margin: 0 32px; /* 0 top/button 32 left/right */
+}
+
+em {
+    display: block;
+}
+
+p.footer {
+    font-size: 12px;
+    font-style: italic;
+    margin: 10px;
+    white-space: normal;
+    text-align: left;
+}
+
+.footer a {
+    padding-inline-start: 0;
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    height: auto;
+    max-width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.container > * {
+    border: 3px solid #6a5300;
+    background-color:#c3b4a0 ;
+    border-radius: 5px;
+    width: 200px;
+    height: auto;
+    padding: 12px;
+    margin: 12px;
+    font-size: 28px;
+    font-weight: bold;
+    white-space: normal;
+}
+
+.container > div > a {
+    display: block;
+    text-align: center;
+    background: inherit;
+    text-decoration: none;
+    color: inherit;
+    letter-spacing: 3px;
+}
+
+.container > div > a:hover {
+    background-color: #8a7358;
+    color: #fcfbf2;
+    cursor: pointer;
+}
+
+.container > div:hover {
+    background-color: #8a7358;
+}
+
+.container {
+    width: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+li {
+    display: list-item;
+    line-height: 1.5;
+}
+
+ul.time {
+    list-style-type: circle;
+    font-size: 16px;
+}
+
+#no-bullet {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*unvisited link*/
+a:link {
+    color: #000000;
+}
+
+/*visited link*/
+a:visited {
+    color: #4e414e;
+}
+
+/*mouse over link*/
+a:hover {
+    color: #3c673c;
+}
+
+/*selected link*/
+a:active {
+    color: #024302;
+}
+
+/* navbar */
+nav.navbar {
+    display: block;
+    padding: 20px;
+    font-size: 16px;
+    font-weight:400;
+    text-decoration: none;
+}
+
+nav.bottom {
+    padding: 20px;
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: bold;
+}
